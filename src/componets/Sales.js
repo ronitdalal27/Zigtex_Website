@@ -38,7 +38,7 @@ export default function Sales() {
 
 
   return (
-    <div className="flex flex-col justify-center items-center gap-2 py-[80px] bg-gradient-to-r from-[#1E1749] to-[#7B6CBC] w-full">
+    <div className="flex flex-col justify-center items-center gap-2 py-[80px] bg-gradient-to-r from-[#1E1749] to-[#7B6CBC] w-full mt-[80px]">
       {/* Top Text */}
       <p className="self-stretch text-center text-white font-inter font-semibold text-[16px] leading-[26px]">
         Best time here
@@ -113,7 +113,7 @@ export default function Sales() {
       </div>
 
       {/* Three-Frame Section */}
-     <div className="flex flex-wrap justify-center lg:justify-between gap-4 mt-[40px] w-full max-w-[1200px] px-4">
+     <div className="flex flex-wrap justify-center lg:justify-between gap-2 mt-[10px] w-full max-w-[1200px] px-4">
       {cards.map((card, index) => (
         <div
           key={index}

@@ -4,8 +4,9 @@ export default function Footer() {
   return (
     <div
       className="
-        flex flex-col items-start gap-12
-        w-full max-w-[1440px] px-20 py-16
+         flex flex-col items-start gap-12
+        w-full max-w-[1440px]
+        px-4 sm:px-10 md:px-20 py-16
         bg-white
       "
     >
@@ -17,10 +18,10 @@ export default function Footer() {
       >
         {/* Logo Placeholder */}
         <img
-          src="/images/Zigtex.png"
-          alt="ZigTex Logo"
-          className="w-[150px] h-[45px] object-contain flex-shrink-0"
-          style={{ aspectRatio: '10 / 3' }}
+           src="/images/Zigtex.png"
+           alt="ZigTex Logo"
+           className="w-[150px] h-[45px] object-contain flex-shrink-0"
+           style={{ aspectRatio: '10 / 3' }}
         />
 
 
