@@ -96,11 +96,11 @@ function LeftSide({ badge, title, description, features }) {
 // Right Section Component
 function RightSide({ image }) {
   return (
-    <div className="w-full max-w-[656px] px-2 md:px-6 bg-[#FAFAFA] rounded-[24px] flex justify-center items-center overflow-hidden">
+   <div className="w-full max-w-[500px] aspect-square px-2 md:px-6 bg-[#FAFAFA] rounded-[24px] flex justify-center items-center overflow-hidden">
       <img
         src={image}
         alt="Feature Visual"
-        className="w-full max-w-[650px] object-contain rounded-[12px]"
+        className="w-full aspect-square object-cover rounded-[12px]"
       />
     </div>
   );

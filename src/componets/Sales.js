@@ -14,7 +14,7 @@ export default function Sales() {
   },
   {
     title: "Fastes Finger First",
-    description: "Say ‘NO’ to the ugly and unproductive work and go close the deals faster.",
+    description: "Say 'NO' to the ugly and unproductive work and go close the deals faster.",
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
         <path d="M10.667 11.3335C10.667 12.4381 9.77155 13.3335 8.66699 13.3335C7.56243 13.3335 6.66699 12.4381 6.66699 11.3335C6.66699 10.2289 7.56243 9.3335 8.66699 9.3335C9.77155 9.3335 10.667 10.2289 10.667 11.3335Z" stroke="white" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round"/>
